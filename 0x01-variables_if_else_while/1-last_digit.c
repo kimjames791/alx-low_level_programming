@@ -2,13 +2,14 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main- entry point
- * Description: A program that assigns a random number to the variable
- * Return:0 if success
+ * main-entry point
+ * a program that assigns a random number
+ *
+ * return:0 if success
  */
 int main(void)
 {
-        int n;
+	int n;
 
         srand(time(0));
         n = rand() - RAND_MAX / 2;
@@ -21,3 +22,5 @@ int main(void)
                 printf("and is less than 6 and not 0\n");
         return (0);
 }
+
+
