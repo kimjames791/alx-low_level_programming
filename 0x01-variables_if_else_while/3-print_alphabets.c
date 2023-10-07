@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 /**
  * main- entry point
  * Description: A program that prints lowercase alphabets
@@ -7,10 +8,11 @@
 int main(void)
 {
 	char c;
+	
+	for (c = 'a', i < 'z';c++
+	putchar(c)
+	putchar("\n);
 
-	for (c = 'a'; c <= 'z'; c++)
-	putchar(c);
-	putchar('\n');
-
-	return (0);
+	return (0)
+	
 }
