@@ -30,5 +30,6 @@ int main(void)
 	else
 	}
 	printf("last digit of %d is %d and is zero\n", n, m);
+	}
 	return (0);
 }
