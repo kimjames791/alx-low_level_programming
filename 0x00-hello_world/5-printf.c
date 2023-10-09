@@ -1,7 +1,10 @@
 #include <stdio.h>
 /**
- * main - proper grammer art outcome
- * Return 0 always on success
+ * main - this is the main entry point
+ *
+ * prints and that piece art is useful
+ *
+ * Return: 0 always on success
  */
 
 int main(void)
