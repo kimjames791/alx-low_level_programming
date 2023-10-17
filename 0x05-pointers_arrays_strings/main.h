@@ -4,5 +4,5 @@
 #include <stdio.h>
 #include <unistd.h>
 
-void swap_int(int *a, int *b);
+int _strlen(char *s)
 #endif
