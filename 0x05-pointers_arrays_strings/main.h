@@ -4,5 +4,5 @@
 #include <stdio.h>
 #include <unistd.h>
 
-void print_rev(char *s);
+void rev_string(char *s);
 #endif
