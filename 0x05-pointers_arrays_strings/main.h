@@ -4,5 +4,5 @@
 #include <stdio.h>
 #include <unistd.h>
 
-void rev_string(char *s);
+void puts2(char *str)
 #endif
