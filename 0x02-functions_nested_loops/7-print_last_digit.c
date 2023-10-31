@@ -6,15 +6,18 @@
  * Return: The last digit of the input number
  */
 
-int print_last_digit(int n)
+int print_last_digit(int r)
 {
-	int last;
+	int p;
 
-	last n % 10;
-	if (last < 0)
+	if (r < 0)
 	{
-	last = last * -1;
+		p = -1 * (r % 10);
 	}
-	_putchar(last + '0');
-	return (last);
+	else
+	{
+		p = r % 10;
+	}
+	_putchar((p % 10) + '0');
+	return (p % 10);
 }
