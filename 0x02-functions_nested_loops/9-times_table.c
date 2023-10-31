@@ -1,13 +1,14 @@
 #include "main.h"
+
+
 /**
  * time_table - a function that prints time table 9
- * time tabe
- *
- * description: it prints timetable followed by , and 2 spaces
- *
+ * p = row, q = column, r = digits of results
+ *  Return: timetable
+ * comma and space after each digit
  */
 
-void times_table(void);
+void times_table(void)
 
 {
 	int p, q, r;
