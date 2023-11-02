@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * prinr_times_table - prints the n times time table
@@ -9,11 +9,11 @@ void print_times_table(int n)
 {
 	int s, u, v;
 
-	if(n >= 0 && n <= 15)
+	if (n >= 0 && n <= 15)
 	{
 		for (s = 0; s <= n; s++)
 		{
-			for (u 0; u <= n; u++)
+			for (u = 0; u <= n; u++)
 			{
 				v = u * s;
 				if (u == 0)
@@ -30,9 +30,9 @@ void print_times_table(int n)
 				}
 				else if (v >= 10 && v < 100)
 				{
-					_putchar(',')
-					_putchar(' ')
-					_putchar(' ')
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
 					_putchar((v / 100) + '0');
 					_putchar((v % 10) + '0');
 				}
@@ -41,11 +41,11 @@ void print_times_table(int n)
 					_putchar(',');
 					_putchar(' ');
 					_putchar((v / 100) + '0');
-					_putchar(((v / 10) % 10) + '0')
-					_putchar((v % 10) + '0';
+					_putchar(((v / 10) % 10) + '0');
+					_putchar((v % 10) + '0');
 				}
 			}
-			_putchar('\n')
+			_putchar('\n');
 		}
 	}
-}			
+}
