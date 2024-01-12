@@ -3,7 +3,7 @@
  * _puts_recursion - name of the working function
  * @s: shows the parameter
  */
-void _puts_recursion(char *s);
+void _puts_recursion(char *s)
 {
 if (*s != '\0')
 {
