@@ -29,8 +29,9 @@ int isInteger(const char *s)
 int main(int argc, char const *argv[])
 {
 	int sum = 0;
+
 	while (--argc)
-{
+	{
 	if (isInteger(argv[argc]))
 	{
 		printf("Error\n");
