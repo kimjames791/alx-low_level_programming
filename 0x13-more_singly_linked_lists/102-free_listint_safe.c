@@ -47,7 +47,7 @@ size_t free_listint_safe(listint_t **head)
 	{
 		for (k = 0; k < num; k++)
 		{
-			if (*head == list[i])
+			if (*head == list[k])
 			{
 				*head = NULL;
 				free(list);
