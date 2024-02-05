@@ -4,7 +4,7 @@
 /**
  * print_listint - print elements of the linkedlists.
  * @h: head of the string.
- * Return: length of the string.
+ * Return: length of the current string.
  */
 
 size_t print_listint(const listint_t *h)
