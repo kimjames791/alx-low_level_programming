@@ -6,7 +6,7 @@
  * @head: A pointer to the head of the listint_t list.
  *
  * Return: If there is no loop - NULL be returned.
- *         Otherwise - the address of the node where the loop starts inthe func.
+ * Otherwise - the address of node whre the loop starts in the func.
  */
 listint_t *find_listint_loop(listint_t *head)
 {
