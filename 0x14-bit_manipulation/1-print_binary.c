@@ -20,7 +20,7 @@ unsigned long int _pow(unsigned int base, unsigned int power)
 
 /**
  * print_binary - prints  number in binary notation.
- * @n: number to b printed 
+ * @n: number to b printed
  *
  * Return: void upon success
  */
