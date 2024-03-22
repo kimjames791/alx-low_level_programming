@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * print_list - prints elements of the linkedlist.
- * @h: linked list of the function
+ * print_list - print elements of linkedlist
+ * @h: linked list
  *
- * Return: number of nodes printed.
+ * Return: number of nodes
  */
 
 size_t print_list(const list_t *h)
@@ -21,3 +21,4 @@ size_t print_list(const list_t *h)
 		nbr_nodes++;
 	}
 	return (nbr_nodes);
+}
